@@ -1,0 +1,118 @@
+.lucky{
+    justify-items: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+}
+.lucky :hover{
+    color: black;
+
+}
+body{
+    background-color: bisque;
+}
+#mercy{
+    overflow: hidden;
+}
+#mercy figure{
+    position: relative;
+    width : 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation:10s mercy infinite ;
+
+}
+#mercy figure img{
+    float: left;
+    width: 20%;
+    height: 500px;
+
+}
+@keyframes mercy{
+    0% {left:0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+}
+
+
+.ongoya{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: grid;
+    
+}
+.ongoya p{
+    font-size: 30px;
+}
+.ong{
+    align-items: center;
+}
+.anet img{
+    width: 20%;
+    height: 10%;
+    border-radius: 80%;
+}
+.anet h1{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.anet p{
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.anet{
+    float: right;
+    
+}
+.anet p{
+    font-size: 30px;
+}
+.keryl{
+    float: left;
+    width: 40%;
+    height: 40%;
+    
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: darkmagenta;
+}
+.joy{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.classinfo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.chelly img{
+   width: 20%; 
+   height: 500px;
+}
+.peace{
+    float: left;
+    font-size: 30px;
+}
+.peace img{
+    width: 80%;
+    height: 500px;
+    border-radius: 10%;
+}
